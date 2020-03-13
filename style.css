@@ -1,0 +1,41 @@
+/*
+Theme Name: Тестовая тема
+Template: twentyfifteen
+Description: Дочерняя тема для темы twentyfifteen
+Author: Eugene Jokerov
+Version: 1.0
+*/
+
+.jwp-row {
+  display: flex;
+}
+
+.jwp-column {
+  flex: 50%;
+}
+
+#yandex-map, #yandex-map-front {
+	width:100%;
+	height: 400px;
+}
+
+.jwp-hide {
+	display:none;
+}
+
+.jwp-unit-form-msg {
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+.jwp-msg-success {
+	background-color: #b6fbb6;
+}
+
+.jwp-msg-error {
+	background-color: #e82323;
+}
+
+.jwp-msg-error ul{
+	padding-left: 20px;
+}
